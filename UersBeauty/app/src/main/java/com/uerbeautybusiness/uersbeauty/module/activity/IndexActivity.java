@@ -33,6 +33,7 @@ public class IndexActivity extends BaseActivity {
 
     @Override
     public void initView() {
+
         mStateLayout.showSuccessView();
         mFragmentList = new ArrayList<>();
         mFragmentList.add(new HomeFragment());
