@@ -60,3 +60,6 @@ freeline_project_description.json
 /captures
 .externalNativeBuild
 
+*.gradle
+gradle.properties
+gradle/
