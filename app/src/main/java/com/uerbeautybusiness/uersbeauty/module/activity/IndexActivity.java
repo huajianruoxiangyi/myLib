@@ -40,7 +40,6 @@ public class IndexActivity extends BaseActivity {
         mFragmentList.add(new HomeFragment());
         mFragmentList.add(new HomeFragment());
         mFragmentList.add(new HomeFragment());
-
         mNavigationController = mMainTabView.custom()
                 .addItem(newItem(R.mipmap.ic_launcher, R.mipmap.ic_launcher, "首页"))
                 .addItem(newItem(R.mipmap.ic_launcher, R.mipmap.ic_launcher, "项目"))
